@@ -1,27 +1,16 @@
 input: .
-base: aawokiengamess.github.io
+base: awokiengamess.github.io-docs
 
-
-# 🎨 Professional Branding & Dark Gaming Theme
 branding:
-  title: Awokien Games
-  label: Dev Hub
+  title: My Personal Hub
+  label: Project
   color: dark
 
-# 📂 Structured Sidebar Navigation
 navigation:
   items:
     - text: 🏠 Home
       link: README.md
-    - text: 🚨 Hype & Leaks
-      link: leaks.md
-    - text: 🛠️ Game Devlogs
-      items:
-        - text: "Game 1: Project Alpha"
-          link: devlogs/alpha.md
-        - text: "Game 2: Project Beta"
-          link: devlogs/beta.md
-
-# 📝 Footer Copyright Notice
-footer:
-  copyright: "© Copyright 2026 Awokien Games. All rights reserved."
+    - text: 📁 Section 1
+      link: section1.md
+    - text: 📁 Section 2
+      link: section2.md
