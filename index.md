@@ -8,7 +8,7 @@ This is a blank slate for your new website. Right now, it is fully configured an
 
 Feel free to delete everything on this page whenever you are ready! Here are some common ways people use these kinds of websites:
 
-=== 📝 Notebook / Wiki
+=== 📝 Notebook / Wieee
 * Keep track of personal notes, school work, or research.
 * Build a personal knowledge base or digital brain.
 * Organize recipes, fitness plans, or reading lists.
