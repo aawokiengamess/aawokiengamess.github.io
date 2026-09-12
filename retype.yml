@@ -1,11 +1,1 @@
 input: .
-
-branding:
-  title: My Personal Hub
-  label: Project
-  color: dark
-
-navigation:
-  items:
-    - text: 🏠 Home
-      link: index.md
