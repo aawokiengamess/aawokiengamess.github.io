@@ -1,1 +1,24 @@
+name: Publish Retype Anywhere
+on:
+  push:
+    branches:
+      - main # Triggers the build whenever you push changes to your main branch
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Ensures the action can write the built files back to your repository
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: retypeapp/action-build@latest
+        id: retype-build
+
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          branch: retype # The output website files will be pushed to this branch
+          update-branch: true
 
